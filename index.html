@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider Library</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="slider.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>Image Slider Library</h1>
+        <p>Explore beautiful places around the world.</p>
+    </header>
+
+    <main>
+        <section class="slider-container" id="imageSlider"
+                 aria-label="Image slider">
+
+            <div class="slider-viewport" id="sliderViewport">
+
+                <div class="slider-track" id="sliderTrack">
+                    <div class="slide">
+                        <img src="images/image1.jpg"
+                             alt="Mountain landscape">
+                    </div>
+
+                    <div class="slide">
+                        <img src="images/image2.jpg"
+                             alt="Beautiful beach">
+                    </div>
+
+                    <div class="slide">
+                        <img src="images/image3.jpg"
+                             alt="Green forest">
+                    </div>
+
+                    <div class="slide">
+                        <img src="images/image4.jpg"
+                             alt="Natural waterfall">
+                    </div>
+
+                    <div class="slide">
+                        <img src="images/image5.jpg"
+                             alt="Peaceful lake">
+                    </div>
+                </div>
+
+                <button class="slider-button previous-button"
+                        id="previousButton"
+                        type="button"
+                        aria-label="Previous image">
+                    &#10094;
+                </button>
+
+                <button class="slider-button next-button"
+                        id="nextButton"
+                        type="button"
+                        aria-label="Next image">
+                    &#10095;
+                </button>
+
+            </div>
+
+            <div class="slider-dots" id="sliderDots"
+                 aria-label="Slide navigation">
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Image Slider Library | HTML, CSS and JavaScript</p>
+    </footer>
+
+</body>
+</html>
